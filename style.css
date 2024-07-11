@@ -1,0 +1,1067 @@
+body {
+    background-color: #8c355e;
+}
+
+#lip1 {
+    z-index: 1;
+    width: 644.9757px;
+    height: 420.0298px;
+    opacity: 60%;
+    mix-blend-mode: multiply;
+    position: absolute;
+    left: -50px;
+
+    animation-name: lip1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-play-state: paused;
+}
+#lip1:hover{
+    animation-play-state: running;
+}
+
+@keyframes lip1 {
+    from {
+        width: 610px;
+        height: auto;
+    }
+
+    to {
+        width: 640px;
+        height: auto;
+    }
+}
+
+#lip2 {
+    z-index: 1;
+    width: 297.8078px;
+    height: 199.1404px;
+    mix-blend-mode: multiply;
+    transform: scale(1.2);
+    position: absolute;
+    top: 20px;
+    left: 650px;
+
+    animation-name: lip2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-play-state: paused;
+}
+#lip2:hover{
+    animation-play-state: running;
+}
+
+@keyframes lip2 {
+    from {
+        width: 290px;
+        height: auto;
+    }
+
+    to {
+        width: 300px;
+        height: auto;
+    }
+}
+
+#lip3 {
+    z-index: 1;
+    width: 393.6px;
+    height: 457.6299px;
+    position: absolute;
+    top: 50px;
+    left: 1350px;
+    transform: rotate(5deg);
+    transform: scale(1.2);
+    animation:
+        lip3 0.7s alternate infinite linear;
+        animation-play-state: paused;
+    }
+    #lip3:hover{
+        animation-play-state: running;
+    }
+
+
+@keyframes lip3 {
+    from {
+        transform: rotate(-3deg);
+    }
+
+    to {
+        transform: rotate(6deg);
+    }
+
+}
+
+#lip12 {
+    z-index: 1;
+    width: 670px;
+    height: 486.8475px;
+    position: absolute;
+    transform: rotate(-20deg);
+    left: 1000px;
+    top: 700px;
+    mix-blend-mode: multiply;
+
+    animation-name: lip12;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.8s;
+    animation-play-state: paused;
+}
+#lip12:hover{
+    animation-play-state: running;
+}
+
+@keyframes lip12 {
+    from {
+        width: 660px;
+        height: auto;
+        rotate: 20deg;
+    }
+
+    to {
+        width: 680px;
+        height: auto;
+        rotate: 25deg;
+    }
+}
+
+#lip4 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    left: -100px;
+    top: -100px;
+    transform: rotate(5deg);
+    transform: scale(1.2);
+    animation:
+        lip4 1s alternate infinite linear;
+    }
+
+@keyframes lip4 {
+    from {
+        transform: rotate(5deg);
+        position: absolute;
+        left: -100px;
+        top: -100px;
+    }
+
+    to {
+        transform: rotate(10deg);
+        position: absolute;
+        left: -100px;
+        top: -50px;
+    }
+
+}
+
+#p1stripe {
+    z-index: 2;
+    width: 1022.7153px;
+    height: 1632.4059px;
+
+    position: absolute;
+    top: -200px;
+    left: -550px;
+}
+
+#decorp1 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#decor2p1 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: -550px;
+    left: 0px;
+}
+
+#hand1 {z-index: 3;
+        width: 1920px;
+    height: auto;
+    scale: 0.9;
+    position: absolute;
+    top: 1050px;
+    left: -200px;
+    animation:
+        hand1 2s alternate infinite ease-in-out;
+}
+@keyframes hand1 {
+    from {
+        transform: rotate(-2deg);
+        top: 1020px;
+        scale: 1;
+    }
+
+    to {
+        transform: rotate(2deg);
+        top: 1040px;
+        scale: 0.9;
+    }
+
+}
+
+#swiggle1 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 1350px;
+    left: 0px;
+}
+
+#footpath {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 1030px;
+    left: 0px;
+}
+
+.fade-in-image {
+    animation: fadeIn 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#eyesp2 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 1030px;
+    left: 0px;
+}
+
+#eyeball1 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 1030px;
+    left: 0px;
+    animation: eyeball1 2.5s alternate infinite ease-in-out;
+}
+@keyframes eyeball1 {
+    from {
+        top: 1015px;
+        left: -20px;
+    }
+
+    to {
+        top: 1035px;
+        left: 15px;
+    }
+
+}
+
+#eyeball2 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 1030px;
+    left: 0px;
+    animation: eyeball2 1s alternate infinite linear;
+}
+
+@keyframes eyeball2 {
+    from {
+        top: 1008px;
+        left: 5px;
+    }
+
+    to {
+        top: 1045px;
+        left: 0px;
+    }
+
+}
+
+#lip5 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 1140px;
+    left: 20px;
+    animation: lip5 2s alternate infinite linear;
+
+}
+
+@keyframes lip5 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(2deg);
+    }
+
+}
+
+#lip6 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 1030px;
+    left: 0px;
+    animation:
+        lip6 1s alternate infinite linear;
+
+}
+
+@keyframes lip6 {
+    from {
+        transform: rotate(-1deg);
+    }
+
+    to {
+        transform: rotate(1deg);
+    }
+
+}
+
+#lip7 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 1040px;
+    left: 0px;
+    animation: lip7 2s alternate infinite ease-in-out;
+
+}
+
+@keyframes lip7 {
+    from {
+        transform: rotate(1deg);
+    }
+
+    to {
+        transform: rotate(-1deg);
+    }
+
+}
+
+#eyesolo {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 1140px;
+    left: 0px;
+    animation: eyesolo 1s alternate infinite ease-in-out;
+
+}
+
+@keyframes eyesolo {
+    from {
+        top: 1130px;
+    }
+
+    to {
+        top: 1150px;
+    }
+
+}
+
+#calendar {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 2090px;
+    left: 0px;
+}
+
+#calendar2 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 2090px;
+    left: 0px;
+    animation: calendar2 2s alternate infinite ease-in-out;
+
+}
+
+@keyframes calendar2 {
+    from {
+        top: 2080px;
+    }
+
+    to {
+        top: 2100px;
+    }
+
+}
+
+#calendar3 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 2090px;
+    left: 0px;
+    animation: calendar3 1s alternate infinite ease-in-out;
+
+}
+
+@keyframes calendar3 {
+    from {
+        top: 2060px;
+    }
+
+    to {
+        top: 2100px;
+    }
+
+}
+
+#eyep3 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 2070px;
+    left: 0px;
+    animation:
+        eyep3 1s alternate infinite linear;
+}
+
+@keyframes eyep3 {
+    from {
+        left: -60px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+#eye2p3 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 2090px;
+    left: 0px;
+    animation:
+        eye2p3 1.5s alternate infinite ease-in-out;
+}
+
+@keyframes eye2p3 {
+    from {
+        top: 2070px;
+    }
+
+    to {
+        top: 2100px;
+    }
+}
+
+#drippyp3 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 2070px;
+    left: 0px;
+}
+
+#wheelspoke {
+    width: 341.0641px;
+    height: 339.0979px;
+    position: absolute;
+    top: 2350px;
+    left: 625px;
+    animation: wheelspoke 5s linear infinite;
+}
+
+@keyframes wheelspoke {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#wheel {
+    width: 367.6781px;
+    height: 367.6781px;
+    position: absolute;
+    top: 2332px;
+    left: 610px;
+    animation: wheelspoke 5s linear infinite;
+}
+
+@keyframes wheelspoke {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#wheelskeleton {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 2090px;
+    left: 0px;
+}
+
+#swiggle2 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 3050px;
+    left: 0px;
+}
+
+#p4static1 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 3135px;
+    left: 0px;
+}
+
+#p4static2 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 3200px;
+    left: 2px;
+    animation: p4static2 1s alternate infinite ease-in-out;
+}
+
+@keyframes p4static2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+#p4eye1 {
+    width: 1920px;
+    height: auto;
+    transform: scale(0.7);
+    position: absolute;
+    top: 3230px;
+    left: -240px;
+    animation: p4eye1 1s alternate infinite ease-in-out;
+}
+
+@keyframes p4eye1 {
+    from {
+        top: 3225px;
+        left: -205px;
+    }
+
+    to {
+        top: 3260px;
+        left: -270px;
+    }
+}
+
+#p4eye2 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 3135px;
+    left: 0px;
+
+}
+
+#p4eye3 {
+    width: 1920px;
+    height: auto;
+    transform: scale(0.8);
+    position: absolute;
+    top: 3050px;
+    left: 170px;
+    animation: p4eye3 3s alternate infinite linear;
+}
+
+@keyframes p4eye3 {
+    from {
+        top: 3045px;
+        left: 205px;
+    }
+
+    to {
+        top: 3055px;
+        left: 140px;
+    }
+}
+
+#p4lip {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 3135px;
+    left: 0px;
+}
+
+#p5moon {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 4200px;
+    left: 0px;
+    animation: p5moon 1.5s alternate infinite ease-in-out;
+}
+
+@keyframes p5moon {
+    from {
+        top: 4180px;
+    }
+
+    to {
+        top: 4220px;
+    }
+}
+
+#p5swiggle {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 4280px;
+    left: 0px;
+}
+
+#p5fire {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 4430px;
+    left: 0px;
+}
+
+#p5eyes {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 4430px;
+    left: 0px;
+    animation: p5eyes 5s alternate infinite ease-in-out;
+}
+
+@keyframes p5eyes {
+    0% {
+        top: 4420px;
+        left: -20px;
+    }
+
+    25% {
+        top: 4440px;
+        left: -20px;
+    }
+
+    50% {
+        top: 4440pxpx;
+        left: 10px;
+    }
+
+    75% {
+        top: 4420px;
+        left: 10px;
+    }
+
+    100% {
+        top: 4420px;
+        left: -20px;
+    }
+}
+
+#p5flowers1 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 4400px;
+    left: 0px;
+    animation: p5flowers1 1.5s alternate infinite ease-in-out;
+}
+
+@keyframes p5flowers1 {
+    from {
+        left: -100px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+#p5flowers2 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 4400px;
+    left: 0px;
+    animation: p5flowers2 1.5s alternate infinite ease-in-out;
+}
+
+@keyframes p5flowers2 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: -100px;
+    }
+}
+
+#p6sun {
+    z-index: 1;
+    width: 436.0198px;
+    height: 436.0198px;
+    position: absolute;
+    top: 5270px;
+    left: 850px;
+    animation: p6sun 10s linear infinite;
+    animation-play-state: paused;
+}
+#p6sun:hover{
+    animation-play-state: running;
+}
+
+@keyframes p6sun {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#p6swiggle {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 5400px;
+    left: 0px;
+}
+
+#p6hand {
+    width: 600.7396px;
+    height: auto;
+    position: absolute;
+    top: 5850px;
+    left: 300px;
+    animation:
+        p6hand 2s alternate infinite ease-in-out;
+
+}
+@keyframes p6hand {
+    from {
+        transform: rotate(-2deg);
+    }
+
+    to {
+        transform: rotate(2deg);
+    }
+
+}
+
+#p6lip {
+    width: 1920px;
+    height: auto;
+    mix-blend-mode: multiply;
+    opacity: 60%;
+    position: absolute;
+    top: 5400px;
+    left: 0px;
+}
+
+#p6eyes {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 5370px;
+    left: 0px;
+    animation:
+        p6eyes 1s alternate infinite ease-in-out;
+}
+
+@keyframes p6eyes {
+    from {
+        left: -40px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+#blink1 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation:
+        blink1 0.5s alternate infinite ease-in-out;
+}
+
+@keyframes blink1 {
+    from {
+        scale: 0.997;
+    }
+
+    to {
+        scale: 1;
+    }
+
+}
+
+#blink2 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation:
+        blink2 0.8s alternate infinite ease-in-out;
+}
+
+@keyframes blink2 {
+    from {
+        scale: 0.988;
+    }
+
+    to {
+        scale: 1;
+    }
+
+}
+
+#blink3 {
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation:
+        blink3 0.6s alternate infinite ease-in-out;
+}
+
+@keyframes blink3 {
+    from {
+        scale: 0.994;
+    }
+
+    to {
+        scale: 1;
+    }
+}
+h1{
+    font-family: 'Corinthia', cursive;
+    font-size: 222px;
+    text-align: left;
+    line-height: 174px;
+    color:#f2c9d4; 
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    animation: h1 0.5s alternate infinite linear;
+    animation-play-state: paused;
+}
+h1:hover{
+    animation-play-state: running;
+}
+
+@keyframes h1 {
+    from {
+scale: 1; 
+   }
+
+    to {
+        scale: 1.02;
+    }
+}
+h2{
+    font-family: 'Victor Mono', monospace;    
+    font-size: 48px;
+    text-align: left;
+    color:#f2c9d4; 
+    position: absolute;
+    top: 500px;
+    left: 1070px;
+ 
+}
+
+
+.kho1{
+    z-index: 4;
+    font-family: 'Victor Mono', monospace;    
+    font-size: 40px;
+    text-align: left;
+    color:#2b0b59;
+
+    position: absolute;
+    top: 1480px;
+    left: 420px;
+    animation: kho1 1s alternate infinite ease-in-out;
+
+    animation-play-state: running;
+}
+.kho1:hover{
+    animation-play-state: paused;
+    color:#f2c9d4; 
+}
+@keyframes kho1 {
+    from {
+scale: 0.95; 
+   }
+
+    to {
+        scale: 1.05;
+    }
+}
+.kho2{
+    font-family: 'Victor Mono', monospace;    
+    font-size: 40px;
+    text-align: left;
+    color:#2b0b59; 
+    position: absolute;
+    top: 2430px;
+    left: 1100px;
+    animation: kho2 1s alternate infinite ease-in-out;
+    animation-play-state: running;
+}
+.kho2:hover{
+    animation-play-state: paused;
+    color:#f2c9d4; 
+}
+@keyframes kho2 {
+    from {
+scale: 0.95; 
+   }
+
+    to {
+        scale: 1;
+    }
+}
+.kho31{
+    z-index: 4;
+    font-family: 'Victor Mono', monospace;    
+    font-size: 40px;
+    text-align: left;
+    color:#2b0b59; 
+    position: absolute;
+    top: 3500px;
+    left:150px;
+    animation: kho3 1.2s alternate infinite ease-in-out;
+    animation-play-state: running;
+}
+.kho31:hover{
+    animation-play-state: paused;
+    color:#f2c9d4; 
+}
+@keyframes kho3 {
+    from {
+scale: 0.95; 
+   }
+
+    to {
+        scale: 1;
+    }
+}
+.kho32{
+    z-index: 4;
+    font-family: 'Victor Mono', monospace;    
+    font-size: 40px;
+    text-align: right;
+    color:#2b0b59; 
+    position: absolute;
+    top: 3950px;
+    left:1180px;
+    animation: kho3 1.5s alternate infinite ease-in-out;
+    animation-play-state: running;
+}
+.kho32:hover{
+    animation-play-state: paused;
+    color:#f2c9d4; 
+}
+@keyframes kho3 {
+    from {
+scale: 0.95; 
+   }
+
+    to {
+        scale: 1;
+    }
+}
+.kho4{
+    font-family: 'Victor Mono', monospace;    
+    font-size: 40px;
+    text-align: center;
+    color:#f2c9d4; 
+    position: absolute;
+    top: 4650px;
+    left:600px;
+    animation: kho4 1.5s alternate infinite ease-in-out;
+    animation-play-state: running;
+}
+.kho4:hover{
+    animation-play-state: paused;
+    color:#2b0b59; 
+
+}
+@keyframes kho4 {
+    from {
+scale: 0.95; 
+   }
+
+    to {
+        scale: 1;
+    }
+}
+.kho5{
+    font-family: 'Victor Mono', monospace;    
+    font-size: 40px;
+    text-align: left;
+    color:#2b0b59; 
+    position: absolute;
+    top: 5560px;
+    left:270px;
+    animation: kho5 1.5s alternate infinite ease-in-out;
+    animation-play-state: running;
+}
+.kho5:hover{
+    animation-play-state: paused;
+    color:#f2c9d4; 
+
+
+}
+@keyframes kho5 {
+    from {
+scale: 0.95; 
+   }
+
+    to {
+        scale: 1;
+    }
+}
